@@ -492,18 +492,18 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
    #header
    ========================================================================== */
 .header {
-    line-height: 78px;
+    line-height: 78rem;
     position: fixed;
     z-index: 10;
     top: 0;
     display: block;
     width: 100%;
-    height: 80px;
+    height: 80rem
     padding: 0;
     text-align: right;
-    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
-    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
-    box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 1rem 5rem rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 1rem 5rem rgba(0, 0, 0, .1);
+    box-shadow: 0 1rem 5rem rgba(0, 0, 0, .1);
 }
 
 .header.animated {
@@ -525,21 +525,21 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .navbar-container {
     position: relative;
-    width: 1040px;
+    width: 1040rem;
     max-width: 100%;
     height: 80px;
     margin: 0 auto;
 }
 
 .navbar-logo {
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 22rem;
+    line-height: 22rem;
     position: absolute;
     top: 30%;
     display: block;
     width: auto;
     max-width: 50%;
-    height: 22px;
+    height: 22rem;
     text-decoration: none;
 }
 
