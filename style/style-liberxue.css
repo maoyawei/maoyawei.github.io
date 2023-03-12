@@ -2140,11 +2140,11 @@ pre code::after {
     }
 
     .footer-meta .meta-copyright .info-text {
-        float: right;
+        float: left;
     }
 
     .footer-meta .meta-copyright .info-text p {
-        text-align: right;
+        text-align: left;
     }
 
     .post-onelist-item-container .onelist-item-thumb {
