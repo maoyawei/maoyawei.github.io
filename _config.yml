@@ -14,13 +14,13 @@ links:
     url:          /
     external:     false
   - name:         java
-    url:          /book
+    url:          /java
     external:     false
   - name:         python
-    url:          /road
+    url:          /python
     external:     false
   - name:         docker
-    url:          /archives
+    url:          /docker
     external:     false
   - name:         标签
     url:          /tags
