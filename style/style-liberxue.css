@@ -543,6 +543,18 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     text-decoration: none;
 }
 
+.navtext-logo {
+    font-size: 2rem;
+    line-height: 5rem;
+    position: absolute;
+    top: 0%;
+    display: block;
+    width: auto;
+    max-width: 20%;
+    height: 0rem;
+    text-decoration: none;
+}
+
 .navbar-logo img {
     width: auto;
     height: 35px;
