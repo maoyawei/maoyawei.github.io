@@ -550,7 +550,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     top: 0%;
     display: block;
     width: auto;
-    max-width: 20%;
+    max-width: 40%;
     height: 0rem;
     text-decoration: none;
 }
@@ -820,12 +820,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .post-list-item-container .item-thumb {
     position: relative;
     display: inherit;
-    min-height: 250px;
-    -webkit-transition: -webkit-transform 500ms ease, filter 500ms ease;
-    -moz-transition: -moz-transform 500ms ease, filter 500ms ease;
-    transition: transform 500ms ease, filter 500ms ease;
+    min-height: 125px;
+    transition: transform 50ms ease, filter 50ms ease;
     background-position: 50% 50%;
-    background-size: cover;
+    background-size:contain;
 }
 
 .post-list-item-container .item-desc {
@@ -967,6 +965,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     border-radius: 50%;
 }
 
+.ibox-content h3,.ibox-content h4,.ibox-content h5{margin-top:5px}
+.ibox-content{color:inherit;padding:15px 20px 20px;border-width:1px 0;clear:both}
+.isqus-comment-count {text-align:right;}
+.vote-item{padding:20px 25px;background:#fbfdff}.vote-item:last-child{border-bottom:1px solid #e7eaec}.vote-item:hover{background:#fbfbfb}
 /* ==========================================================================
    #one list page
    ========================================================================== */
@@ -1085,8 +1087,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .post-header-thumb-container {
-    position: relative;
-    top: 100px;
+    position: absolute;
+    left: 17%;
+    top: 40%;
     max-width: 1024px;
     margin: 0 auto;
     -webkit-animation: auto;
@@ -1977,7 +1980,7 @@ pre code::after {
 
 @media (max-width: 1000px) {
     .post-header-thumb {
-        height: 280px;
+        height: 220px;
     }
 
     .post-header-thumb-cover {
@@ -2028,7 +2031,7 @@ pre code::after {
     }
 
     .post-header-thumb {
-        height: 250px;
+        height: 220px;
     }
 
     .post-header-thumb-op {
